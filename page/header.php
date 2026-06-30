@@ -27,13 +27,31 @@
         <!-- Desktop  -->
         <nav class="hidden md:flex items-center gap-6">
 
-            <a href="index.php" class="hover:text-blue-600 transition">
+            <a href="index.php" class="relative
+after:absolute
+after:left-0
+after:-bottom-1
+after:w-0
+after:h-0.5
+after:bg-green-500
+after:transition-all
+after:duration-300
+hover:after:w-full transition">
                 Home
             </a>
             <!-- notes -->
             <div class="relative group">
 
-                <button class="flex items-center gap-1 hover:text-blue-600 transition">
+                <button class="flex items-center gap-1 relative
+after:absolute
+after:left-0
+after:-bottom-1
+after:w-0
+after:h-0.5
+after:bg-green-500
+after:transition-all
+after:duration-300
+hover:after:w-full transition">
                     Notes
 
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -44,42 +62,119 @@
                 </button>
 
                 <!-- Dropdown Menu -->
-                <div
-                    class="absolute left-0 top-full mt-2 w-56 rounded-xl bg-white shadow-xl border border-gray-200 opacity-0 invisible translate-y-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50">
+                <div class="absolute left-0 top-full mt-3 w-64 rounded-2xl bg-white
+border
+border-gray-200
+shadow-2xl
+opacity-0
+invisible
+translate-y-3
+scale-95
+transition-all
+duration-300
+ease-out
+group-hover:opacity-100
+group-hover:visible
+group-hover:translate-y-0
+group-hover:scale-100
+z-50">
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href="#" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Data Structure
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Database Management System
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Operating System
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Computer Networks
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Java
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Python
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Ssoftware Engineering
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         COA Notes
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         C++
                     </a>
 
@@ -88,9 +183,18 @@
             </div>
 
             <!-- explore -->
-            <div class="relative group">
+            <div class=" relative group">
 
-                <button class="flex items-center gap-1 hover:text-blue-600 transition">
+                <button class="flex items-center gap-1 relative
+after:absolute
+after:left-0
+after:-bottom-1
+after:w-0
+after:h-0.5
+after:bg-green-500
+after:transition-all
+after:duration-300
+hover:after:w-full transition">
                     Explore
 
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -104,35 +208,91 @@
                 <div
                     class="absolute left-0 top-full mt-2 w-56 rounded-xl bg-white shadow-xl border border-gray-200 opacity-0 invisible translate-y-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50">
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href="#" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Data Structure
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         DBMS
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Operating System
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Computer Networks
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Java Programing
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Python Programing
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Software Engineering
                     </a>
 
-                    <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                    <a href=" #" class="block
+px-5
+py-3
+text-gray-700
+hover:bg-green-50
+hover:text-green-600
+transition-all
+duration-200">
                         Computer Organization
                     </a>
 
@@ -142,11 +302,29 @@
 
             </div>
 
-            <a href="#whyus" class="hover:text-blue-600 transition">
+            <a href=" #whyus" class="relative
+after:absolute
+after:left-0
+after:-bottom-1
+after:w-0
+after:h-0.5
+after:bg-green-500
+after:transition-all
+after:duration-300
+hover:after:w-full transition">
                 Why Us
             </a>
 
-            <a href="#contact" class="hover:text-blue-600 transition">
+            <a href="#contact" class="relative
+after:absolute
+after:left-0
+after:-bottom-1
+after:w-0
+after:h-0.5
+after:bg-green-500
+after:transition-all
+after:duration-300
+hover:after:w-full transition">
                 Contact
             </a>
 
@@ -211,17 +389,17 @@
             <div>
 
                 <button id="explore-btn" class="flex items-center justify-between w-full hover:text-green-500"
-                    onclick="exploreBtn"></button>
+                    aria-expanded="false">
 
-                <span>Explore</span>
+                    <span>Explore</span>
 
-                <svg id="explore-arrow" xmlns="http://www.w3.org/2000/svg"
-                    class="w-4 h-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                    <svg id="explore-arrow" xmlns="http://www.w3.org/2000/svg"
+                        class="w-4 h-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
 
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 
-                </svg>
+                    </svg>
 
                 </button>
 
@@ -257,5 +435,4 @@
     </div>
 
 </header>
-
 <script src="./js/header.js"></script>
