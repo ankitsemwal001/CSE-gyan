@@ -1,3 +1,5 @@
+<?php require_once __DIR__ . '/config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,18 +19,18 @@
         rel="stylesheet">
 
     <style>
-        body {
-            font-family: 'inter', sans-serif;
-        }
+    body {
+        font-family: 'inter', sans-serif;
+    }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Manrope', sans-serif;
-        }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Manrope', sans-serif;
+    }
     </style>
 
 
@@ -92,7 +94,7 @@
 
             <!-- DSA Notes Card — Detail Page Link wala -->
             <article class="border rounded-xl p-6 w-80 shadow hover:shadow-lg transition bg-white">
-                <a href="notes-page/dsa.php" class="block">
+                <a href=" -notes-page/dsa.php" class="block">
                     <img src="./notes.jpg" alt="Data Structure Handwritten Notes PDF for CSE" class="rounded-lg w-full">
                     <h3 class="text-xl font-semibold mt-4">Data Structure Notes</h3>
                     <p class="text-gray-600 mt-3">
@@ -416,10 +418,12 @@
 
             <article class="w-64 p-6 border rounded-xl shadow hover:shadow-lg transition">
                 <h3 class="text-2xl font-semibold mb-4">
-                    Data Structures
+                    <a href="../explore/dsa/sidebar.php">
+                        Data Structures </a>
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/dsa/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -430,7 +434,8 @@
                     DBMS
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/dbms/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -441,7 +446,8 @@
                     Operating System
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/os/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -452,7 +458,8 @@
                     Computer Networks
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/cn/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -463,7 +470,8 @@
                     Java Programming
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/java/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -474,7 +482,8 @@
                     Python Programming
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/python/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -485,7 +494,8 @@
                     Software Engineering
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/softwareEngineering/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>
@@ -493,10 +503,11 @@
 
             <article class="w-64 p-6 border rounded-xl shadow hover:shadow-lg transition">
                 <h3 class="text-2xl font-semibold mb-4">
-                    Computer Organization
+                    Computer Organization and Architecture
                 </h3>
 
-                <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-medium">
+                <a href="<?php echo BASE_URL; ?>explore/coa/sidebar.php"
+                    class="inline-flex items-center gap-2 text-blue-600 font-medium">
                     Explore Notes
                     <span>→</span>
                 </a>

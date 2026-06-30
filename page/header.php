@@ -3,7 +3,7 @@
 
         <!-- navbar Logo -->
         <div class="flex items-center gap-2">
-            <img src="./assets/book.svg" alt="CS Pathfinder Logo" class="h-9 w-9">
+            <img src="<?php echo BASE_URL; ?>assets/book.svg" alt="CS Pathfinder Logo" class="h-9 w-9">
             <span class="font-bold text-xl">CS Pathfinder</span>
         </div>
 
@@ -27,7 +27,7 @@
         <!-- Desktop  -->
         <nav class="hidden md:flex items-center gap-6">
 
-            <a href="index.php" class="relative
+            <a href="<?php echo BASE_URL; ?>index.php" class="relative
 after:absolute
 after:left-0
 after:-bottom-1
@@ -79,7 +79,7 @@ group-hover:translate-y-0
 group-hover:scale-100
 z-50">
 
-                    <a href="#" class="block
+                    <a href="notes-page/dsa.php" class="block
 px-5
 py-3
 text-gray-700
@@ -208,7 +208,7 @@ hover:after:w-full transition">
                 <div
                     class="absolute left-0 top-full mt-2 w-56 rounded-xl bg-white shadow-xl border border-gray-200 opacity-0 invisible translate-y-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50">
 
-                    <a href="#" class="block
+                    <a href="<?php echo BASE_URL; ?>explore/dsa/sidebar.php" class="block
 px-5
 py-3
 text-gray-700
@@ -348,7 +348,7 @@ hover:after:w-full transition">
 
         <div class="flex flex-col p-6 gap-4">
 
-            <a href="index.php" class="hover:text-green-500">
+            <a href="<?php echo BASE_URL; ?>index.php" class="hover:text-green-500">
                 Home
             </a>
 
@@ -371,7 +371,7 @@ hover:after:w-full transition">
 
                 <div id="notes-dropdown" class="hidden mt-2 rounded-lg bg-gray-50 overflow-hidden">
 
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Data Structure</a>
+                    <a href="notes-page/dsa.php" class="block px-4 py-2 hover:bg-gray-100">Data Structure</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">DBMS</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">Operating System</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">Computer Networks</a>
@@ -405,7 +405,8 @@ hover:after:w-full transition">
 
                 <div id="explore-dropdown" class="hidden mt-2 rounded-lg bg-gray-50 overflow-hidden">
 
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Data Structure</a>
+                    <a href="<?php echo BASE_URL; ?>explore/dsa/sidebar.php"
+                        class="block px-4 py-2 hover:bg-gray-100">Data Structure</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">DBMS</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">Operating System</a>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">Computer Networks</a>
@@ -435,4 +436,4 @@ hover:after:w-full transition">
     </div>
 
 </header>
-<script src="./js/header.js"></script>
+<script src="<?php echo BASE_URL; ?>js/header.js"></script>

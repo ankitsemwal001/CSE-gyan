@@ -5,15 +5,15 @@
             <div class="flex items-center gap-2 mb-3">
                 <div
                     class="w-5 h-5 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm font-bold">
-                    <img src="../assets/book.svg" alt="">
+                    <img src="<?php echo BASE_URL; ?>assets/book.svg" alt="">
                 </div>
                 <span class="text-white font-bold">CS Pathfinder</span>
             </div>
             <p class="text-sm leading-relaxed">Premium handwritten engineering notes for CSE
                 / IT students. High quality,
                 exam-focused and affordable.</p>
-            <p class="mt-4 text-sm flex gap-2 items-center"> <img src="../assets/whatsapp.svg" alt="WhatsApp"
-                    class="w-5 h-5 flex">
+            <p class="mt-4 text-sm flex gap-2 items-center"> <img src="<?php echo BASE_URL; ?>assets/whatsapp.svg"
+                    alt="WhatsApp" class="w-5 h-5 flex">
                 +91-7533823526</p>
         </div>
 
