@@ -426,7 +426,7 @@ Advanced Algorithms</pre>
         <button disabled class="px-5 py-2.5 rounded-lg bg-gray-100 text-gray-400 font-medium cursor-not-allowed">
             ← Previous
         </button>
-        <a href="?page=what-is-data-structure"
+        <a href="?topic=what-is-data-structure"
             class="px-5 py-2.5 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition">
             What is Data Structure →
         </a>

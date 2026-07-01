@@ -8,21 +8,23 @@ $menu = require __DIR__ . '/menu.php';
 $topics = $menu['unit1'];
 
 // Current Topic
-$currentSlug = $_GET['topic'] ?? 'introduction-to-dsa';
+$requestedSlug = $_GET['topic'] ?? $_GET['page'] ?? '';
 
 // Default Topic
 $currentTopic = $topics[0];
+$currentSlug = $currentTopic['slug'];
 
 // Find Current Topic
 foreach ($topics as $topic) {
-    if ($topic['slug'] === $currentSlug) {
+    if ($topic['slug'] === $requestedSlug) {
         $currentTopic = $topic;
+        $currentSlug = $topic['slug'];
         break;
     }
 }
 
-// Content Path
-$contentPath = __DIR__ . "/dsaContent/unit1/" . $currentTopic['file'];
+
+$contentPath = __DIR__ . '/dsaContent/Unit-1/' . $currentTopic['file'];
 
 ?>
 
@@ -41,7 +43,7 @@ $contentPath = __DIR__ . "/dsaContent/unit1/" . $currentTopic['file'];
 
     <?php include __DIR__ . '/../../page/header.php'; ?>
 
-    <div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 py-10 gap-8">
+    <div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 py-10 gap-8 sticky">
 
         <!-- Sidebar -->
         <aside class="md:w-64 shrink-0">
