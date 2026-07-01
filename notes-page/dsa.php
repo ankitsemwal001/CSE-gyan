@@ -6,19 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Meta Tags -->
     <title>Data Structure Handwritten Notes PDF — CS Pathfinder</title>
     <meta name="description"
         content="Buy complete Data Structures & Algorithms handwritten notes PDF. 142 pages, full syllabus, mock test included. Only ₹39. Instant WhatsApp delivery.">
     <meta name="keywords" content="data structure notes pdf, DSA handwritten notes, CSE notes, algorithm notes pdf">
 
-    <!-- Open Graph (WhatsApp/Social preview) -->
     <meta property="og:title" content="DSA Handwritten Notes — CS Pathfinder">
     <meta property="og:description" content="142-page complete DSA notes. ₹39 only. WhatsApp delivery.">
     <meta property="og:image" content="https://csegyan.com/notes.jpg">
     <meta property="og:url" content="https://csegyan.com/notes/dsa.php">
 
-    <!-- Schema.org Product markup — Google ke liye -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
@@ -41,7 +38,6 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -70,7 +66,6 @@
 
     <main class="max-w-4xl mx-auto px-6 py-16">
 
-        <!-- Breadcrumb — SEO ke liye important -->
 
         <nav class="text-sm text-gray-500 mb-6">
             <a href="/" class="hover:text-green-500">Home</a> &rsaquo;
@@ -132,7 +127,6 @@
             </div>
         </section>
 
-        <!-- FAQs — Featured snippet ke liye -->
         <section class="mt-16">
             <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
             <div class="space-y-4">

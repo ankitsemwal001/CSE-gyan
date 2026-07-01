@@ -1,6 +1,5 @@
 <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-0 py-8 text-gray-800 leading-relaxed">
 
-    <!-- Page Heading -->
     <header class="mb-8">
         <p class="text-sm font-semibold text-indigo-600 mb-2 uppercase tracking-wide">
             Unit 1 · DSA Basics
@@ -16,7 +15,6 @@
         </p>
     </header>
 
-    <!-- Introduction -->
     <section class="mb-10">
 
         <h2 class="text-2xl font-bold text-gray-900 mb-4">
@@ -45,7 +43,6 @@
             types of Data Structures.
         </p>
 
-        <!-- Image Placeholder -->
 
         <div
             class="w-full aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl flex flex-col items-center justify-center text-center p-6 my-6">
@@ -67,7 +64,6 @@
 
     </section>
 
-    <!-- Table of Contents -->
 
     <section class="mb-10 bg-gray-50 border border-gray-200 rounded-xl p-6">
 
@@ -99,7 +95,6 @@
 
     </section>
 
-    <!-- Definition -->
 
     <section id="definition" class="mb-10">
 
@@ -138,7 +133,6 @@
 
     </section>
 
-    <!-- Need -->
 
     <section id="need" class="mb-10">
 
@@ -241,7 +235,6 @@
 
     </section>
 
-    <!-- Characteristics -->
 
     <section id="characteristics" class="mb-10">
 
@@ -309,7 +302,6 @@
 
 
 
-    <!-- Types of Data Structures -->
 
     <section id="types" class="mb-10">
 
@@ -367,7 +359,6 @@
 
     </section>
 
-    <!-- Linear vs Non Linear -->
 
     <section id="linear-vs-nonlinear" class="mb-10">
 
@@ -443,7 +434,6 @@
 
     </section>
 
-    <!-- Basic Operations -->
 
     <section id="operations" class="mb-10">
 
@@ -509,7 +499,6 @@
 
     </section>
 
-    <!-- Real Life Example -->
 
     <section id="real-life" class="mb-10">
 
@@ -546,7 +535,6 @@ Required Book
 
     </section>
 
-    <!-- Code Example -->
 
     <section id="code-example" class="mb-10">
 
@@ -588,7 +576,6 @@ int main() {
 
     </section>
 
-    <!-- Key Points -->
 
     <section id="key-points" class="mb-10">
 
@@ -616,7 +603,6 @@ int main() {
 
     </section>
 
-    <!-- Interview Tip -->
 
     <section class="mb-10">
 
@@ -641,7 +627,6 @@ int main() {
 
     </section>
 
-    <!-- Common Mistakes -->
 
     <section class="mb-10">
 
@@ -667,7 +652,6 @@ int main() {
 
     </section>
 
-    <!-- Quick Revision -->
 
     <section class="mb-10">
 
@@ -733,7 +717,6 @@ int main() {
 
     </section>
 
-    <!-- Summary -->
 
     <section class="mb-12">
 
@@ -749,18 +732,17 @@ int main() {
 
     </section>
 
-    <!-- Navigation -->
 
     <nav class="flex items-center justify-between border-t border-gray-200 pt-6 mt-10">
 
-        <a href="?topic=introduction-to-dsa"
+        <a href="?unit=unit1&topic=introduction-to-dsa"
             class="px-5 py-2.5 rounded-lg bg-gray-100 text-gray-700 font-medium hover:bg-gray-200 transition">
 
             ← Introduction to DSA
 
         </a>
 
-        <a href="?topic=abstract-data-type"
+        <a href="?unit=unit1&topic=abstract-data-type"
             class="px-5 py-2.5 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition">
 
             Abstract Data Type →

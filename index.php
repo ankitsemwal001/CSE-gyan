@@ -11,7 +11,6 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -43,7 +42,6 @@
     <?php include './page/header.php'; ?>
 
 
-    <!-- hero -->
 
     <section id="home" class="py-20 px-6 text-center bg-stone-50">
 
@@ -78,7 +76,6 @@
     </section>
 
 
-    <!-- notes -->
 
     <section id="notes" class="py-20 px-6 bg-zinc-100">
 
@@ -92,7 +89,6 @@
 
         <div class="flex flex-wrap justify-center gap-8  sm:grid-cols-2 lg:grid-cols-3">
 
-            <!-- DSA Notes Card — Detail Page Link wala -->
             <article class="border rounded-xl p-6 w-80 shadow hover:shadow-lg transition bg-white">
                 <a href=" -notes-page/dsa.php" class="block">
                     <img src="./notes.jpg" alt="Data Structure Handwritten Notes PDF for CSE" class="rounded-lg w-full">
@@ -402,7 +398,6 @@
 
 
 
-    <!-- explore -->
 
     <section id="explore" class="py-20 px-6 text-center bg-stone-50">
 
@@ -519,7 +514,6 @@
 
 
 
-    <!-- why choose us -->
 
     <section id="whyus" class="py-20 px-6 text-center bg-zinc-100">
 
@@ -573,12 +567,10 @@
 
     </section>
 
-    <!-- whatsapp inqury -->
 
 
     <section id="wtsp-inquiry" class="text-center py-20 px-6 rounded-xl border shadow bg-green-800">
 
-        <!-- <div class="h-3 w-3 text-center flex"><img src="book.svg" alt=""></div> -->
         <p class="text-green-400 text-sm font-semibold mb-3">
             CS Pathfinder
         </p>

@@ -1,11 +1,5 @@
-<!-- ============================================================
-     CS Gyan | Unit 1 | Introduction to Data Structures and Algorithms
-     File: dsaContent/unit1/introduction-to-dsa.php
-     ============================================================ -->
-
 <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-0 py-8 text-gray-800 leading-relaxed">
 
-    <!-- Page Heading -->
     <header class="mb-8">
         <p class="text-sm font-semibold text-indigo-600 mb-2 uppercase tracking-wide">Unit 1 · DSA Basics</p>
         <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
@@ -17,7 +11,6 @@
         </p>
     </header>
 
-    <!-- Introduction -->
     <section class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Introduction</h2>
         <p class="mb-4">
@@ -36,20 +29,23 @@
             teaches you <em>when</em> and <em>how</em> to use that hammer to build something strong, fast, and reliable.
         </p>
 
-        <!-- Image Placeholder -->
-        <div
-            class="w-full aspect-video bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl flex flex-col items-center justify-center text-center p-6 my-6">
-            <span class="text-3xl mb-2">🖼️</span>
-            <p class="text-sm font-semibold text-gray-500">IMAGE PLACEHOLDER</p>
-            <p class="text-xs text-gray-400 mt-1 max-w-md">
-                Suggested image: Conceptual banner showing "Programming Language + DSA = Efficient Software" (icons of
-                code brackets, a brain/gear, and a rocket). Aspect Ratio: 16:9 (e.g., 1200×675px).
-            </p>
-        </div>
+
+
+
+        <figure class="my-8 flex flex-col items-center">
+            <div class="overflow-hidden rounded-2xl shadow-[0_20px_45px_rgba(0,0,0,0.18)]">
+                <img src="<?= BASE_URL ?>assets/exploreImages/dsa/unit1-fig-1.1.png"
+                    alt="Introduction to Data Structures and Algorithms"
+                    class="w-full max-w-3xl h-auto object-cover transition duration-300 hover:scale-[1.02]">
+            </div>
+
+            <figcaption class="mt-3 text-sm text-gray-600 italic">
+                <strong>Figure 1.1</strong> — Introduction to Data Structures and Algorithms
+            </figcaption>
+        </figure>
     </section>
 
-    <!-- Table of Contents -->
-    <section class="mb-10 bg-gray-50 border border-gray-200 rounded-xl p-6">
+    <section class=" mb-10 bg-gray-50 border border-gray-200 rounded-xl p-6">
         <h2 class="text-xl font-bold text-gray-900 mb-4">📑 Table of Contents</h2>
         <ul class="grid sm:grid-cols-2 gap-2 text-indigo-700">
             <li><a href="#why-learn" class="hover:underline">Why Should You Learn DSA?</a></li>
@@ -65,7 +61,6 @@
         </ul>
     </section>
 
-    <!-- Why Should You Learn DSA -->
     <section id="why-learn" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Why Should You Learn DSA?</h2>
         <p class="mb-6">
@@ -114,7 +109,6 @@
         </div>
     </section>
 
-    <!-- What is Data -->
     <section id="what-is-data" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">What is Data?</h2>
         <p class="mb-4">
@@ -128,7 +122,6 @@
         </p>
     </section>
 
-    <!-- What is Data Structure -->
     <section id="what-is-ds" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">What is Data Structure?</h2>
         <p class="mb-4">
@@ -149,7 +142,6 @@
         </div>
     </section>
 
-    <!-- What is Algorithm -->
     <section id="what-is-algo" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">What is Algorithm?</h2>
         <p class="mb-4">
@@ -170,7 +162,6 @@
         </p>
     </section>
 
-    <!-- Relationship -->
     <section id="relationship" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Relationship Between Data, Data Structure and Algorithm</h2>
         <p class="mb-4">
@@ -196,7 +187,6 @@
         </ul>
     </section>
 
-    <!-- Real Life Example -->
     <section id="real-life" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Real Life Example: The Library</h2>
         <p class="mb-4">
@@ -226,7 +216,6 @@
         </p>
     </section>
 
-    <!-- Where is DSA Used -->
     <section id="where-used" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Where is DSA Used?</h2>
         <p class="mb-6">DSA isn't just an academic topic — it silently powers almost every app you use daily.</p>
@@ -275,7 +264,6 @@
         </div>
     </section>
 
-    <!-- Roadmap -->
     <section id="roadmap" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">DSA Learning Roadmap</h2>
         <p class="mb-4">Here's the order in which you should ideally learn DSA topics — from easiest to most advanced:
@@ -302,7 +290,6 @@ Advanced Algorithms</pre>
         </div>
     </section>
 
-    <!-- Code Example -->
     <section id="code-example" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Code Example</h2>
         <p class="mb-4">
@@ -331,7 +318,6 @@ Advanced Algorithms</pre>
                 class="bg-gray-100 px-2 py-1 rounded">Largest number is: 89</code></p>
     </section>
 
-    <!-- Key Points -->
     <section id="key-points" class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Key Points</h2>
         <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-6">
@@ -345,7 +331,6 @@ Advanced Algorithms</pre>
         </div>
     </section>
 
-    <!-- Interview Tip -->
     <section class="mb-10">
         <div class="bg-yellow-50 border-l-4 border-yellow-500 rounded-r-xl p-5 flex gap-3">
             <span class="text-2xl">🎯</span>
@@ -359,7 +344,6 @@ Advanced Algorithms</pre>
         </div>
     </section>
 
-    <!-- Common Beginner Mistakes -->
     <section class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Common Beginner Mistakes</h2>
         <div class="bg-red-50 border-l-4 border-red-500 rounded-r-xl p-5">
@@ -372,7 +356,6 @@ Advanced Algorithms</pre>
         </div>
     </section>
 
-    <!-- Quick Revision Table -->
     <section class="mb-10">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Quick Revision</h2>
         <div class="overflow-x-auto">
@@ -410,7 +393,6 @@ Advanced Algorithms</pre>
         </div>
     </section>
 
-    <!-- Summary -->
     <section class="mb-12">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Summary</h2>
         <p class="text-gray-700">
@@ -421,12 +403,11 @@ Advanced Algorithms</pre>
         </p>
     </section>
 
-    <!-- Navigation -->
     <nav class="flex items-center justify-between border-t border-gray-200 pt-6 mt-10">
         <button disabled class="px-5 py-2.5 rounded-lg bg-gray-100 text-gray-400 font-medium cursor-not-allowed">
             ← Previous
         </button>
-        <a href="?topic=what-is-data-structure"
+        <a href="?unit=unit1&topic=what-is-data-structure"
             class="px-5 py-2.5 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition">
             What is Data Structure →
         </a>

@@ -1,7 +1,6 @@
 <header class="sticky top-0 z-50 bg-white shadow relative">
     <div class="flex items-center justify-between px-6 py-4">
 
-        <!-- navbar Logo -->
         <div class="flex items-center gap-2">
             <img src="<?php echo BASE_URL; ?>assets/book.svg" alt="CS Pathfinder Logo" class="h-9 w-9">
             <span class="font-bold text-xl">CS Pathfinder</span>
@@ -24,7 +23,6 @@
 
 
 
-        <!-- Desktop  -->
         <nav class="hidden md:flex items-center gap-6">
 
             <a href="<?php echo BASE_URL; ?>index.php" class="relative
@@ -39,7 +37,6 @@ after:duration-300
 hover:after:w-full transition">
                 Home
             </a>
-            <!-- notes -->
             <div class="relative group">
 
                 <button class="flex items-center gap-1 relative
@@ -61,7 +58,6 @@ hover:after:w-full transition">
                     </svg>
                 </button>
 
-                <!-- Dropdown Menu -->
                 <div class="absolute left-0 top-full mt-3 w-64 rounded-2xl bg-white
 border
 border-gray-200
@@ -182,7 +178,6 @@ duration-200">
 
             </div>
 
-            <!-- explore -->
             <div class=" relative group">
 
                 <button class="flex items-center gap-1 relative
@@ -204,7 +199,6 @@ hover:after:w-full transition">
                     </svg>
                 </button>
 
-                <!-- Dropdown Menu -->
                 <div
                     class="absolute left-0 top-full mt-2 w-56 rounded-xl bg-white shadow-xl border border-gray-200 opacity-0 invisible translate-y-2 transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 z-50">
 
@@ -343,7 +337,6 @@ hover:after:w-full transition">
 
 
 
-        <!-- phone -->
 
 
         <div class="flex flex-col p-6 gap-4">
@@ -352,7 +345,6 @@ hover:after:w-full transition">
                 Home
             </a>
 
-            <!-- Notes -->
             <div>
 
                 <button id="notes-btn" class="flex items-center justify-between w-full hover:text-green-500">
@@ -385,7 +377,6 @@ hover:after:w-full transition">
 
             </div>
 
-            <!-- Explore -->
             <div>
 
                 <button id="explore-btn" class="flex items-center justify-between w-full hover:text-green-500"
